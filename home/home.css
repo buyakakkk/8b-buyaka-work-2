@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&family=Rubik:wght@500&family=Sigmar&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    
+}
+:root{
+    --main-color: #fd4646;
+    --text-color: #ffffff;
+    --bg-color: rgb(7, 7, 7);
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+}
+.top{
+    width: 100%;
+    height: 5%;
+    background-color: var(--bg-color);
+    display: flex;
+}
+.top-right{
+    width: 50%;
+    height: 100%;
+    background-color: var(--bg-color);
+}
+.top-right img{
+    width: 50px;
+    height: 47px;
+}
+.top-left{
+    width: 50%;
+    height: 100%;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: flex-end;
+}
+.top i{
+    color: #ffffff;
+    font-size: xxx-large;
+}
+.menu{
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 360px;
+    min-height: 100vh;
+    padding: 20px; 
+    background: rgb(87, 87, 87); 
+    box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
+    transition: 0.7s;
+}
+.menu.active{
+    right: 0;
+}
+.menu-title{
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem; 
+}
+.menu-list1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+.menu-list2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+.menu-list3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+.mid{
+    width: 100%;
+    height: 80%;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    width: 60%;
+    height: 100%;
+    background-color: rgb(7, 7, 7);
+}
+.tag{
+    width: 100%;
+    height: 30%;
+    background-color: var(--bg-color);
+    display: flex;
+    align-items: flex-end;
+}
+.tag h1{
+    font-size: 115px;
+    color: #ffffff;
+}
+.words{
+    width: 100%;
+    height: 70%;
+}
+.words h2{
+    color: #ffffff;
+}
+.right{
+    width: 40%;
+    height: 100%;
+    background: url(/pic/black\ candy2.jpg) no-repeat;
+    background-position: center;
+}
+.bottom{
+    width: 100%;
+    height: 25%;
+    background-color: var(--bg-color);
+}
+.getstart{
+    width: 130px;
+    height: 70px;
+    border-radius: 25px;
+}
